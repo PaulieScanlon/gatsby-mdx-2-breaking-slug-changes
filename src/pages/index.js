@@ -8,7 +8,9 @@ const Page = () => {
     {
       allMdx {
         nodes {
-          slug
+          fields {
+            slug
+          }
           frontmatter {
             title
           }
@@ -23,12 +25,12 @@ const Page = () => {
       <ul>
         {nodes.map((node, index) => {
           const {
-            slug,
+            fields: { slug },
             frontmatter: { title }
           } = node;
           return (
             <li key={index}>
-              <Link to={`/${slug}`}>{title}</Link>
+              <Link to={slug}>{title}</Link>
             </li>
           );
         })}
