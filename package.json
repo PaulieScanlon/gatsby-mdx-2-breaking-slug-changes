@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-mdx-2-breaking-slug-changes",
+  "version": "1.0.0",
+  "description": "Example MDX 2 repo with breaking changes to mdx.slug",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/gatsby-mdx-2-breaking-slug-changes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/gatsby-mdx-2-breaking-slug-changes/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/gatsby-mdx-2-breaking-slug-changes#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "1.6.22",
+    "@mdx-js/react": "1.6.22",
+    "gatsby": "^4.22.0",
+    "gatsby-plugin-mdx": "^3.20.0",
+    "gatsby-source-filesystem": "^4.22.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
